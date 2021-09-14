@@ -1,5 +1,4 @@
-import Home from './Components/Home/Home'
-//import Header from './Components/Header/Header'
+import Home from './Components/Home/Home.js'
 
 function App() {
   return (
