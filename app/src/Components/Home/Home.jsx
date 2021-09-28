@@ -9,7 +9,6 @@ function Home() {
           <div>
             <h1>Kevin Mora Pais</h1>
           </div>
-          <button onClick={CreateMeeting}>Test</button>
         </div>
       </header>
     </div>
