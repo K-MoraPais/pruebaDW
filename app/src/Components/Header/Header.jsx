@@ -1,7 +1,5 @@
 import classes from "./Header.module.scss";
-import { BrowserRouter as Router, Switch, Route, Link, NavLink } from "react-router-dom";
-import CreateMeeting from "../Meetings/CreateMeeting/CreateMeeting";
-import Home from "../Home/Home";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (

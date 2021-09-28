@@ -15,7 +15,7 @@ function postCreateMeeting() {
       duration: 90,
     },
     headers: {
-      Authorization: `Bearer ${token}`,
+      Bearer: {token}
     },
   })
     .then((res) => {

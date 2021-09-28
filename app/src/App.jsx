@@ -1,16 +1,16 @@
 import Header from "./Components/Header/Header";
 import classes from "./app.module.scss";
-import router from "./Router/Routes";
-import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./Router/Routes";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Header />
       <div className={classes.content}>
-        <router />
+        <Routes />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 export default App;
